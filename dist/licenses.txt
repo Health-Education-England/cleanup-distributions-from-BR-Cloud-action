@@ -1,0 +1,165 @@
+The following NPM packages may be included in this product:
+
+ - @actions/core@1.2.6
+
+These packages each contain the following license and notice below:
+
+The MIT License (MIT)
+
+Copyright 2019 GitHub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----------
+
+The following NPM packages may be included in this product:
+
+ - @types/axios@0.14.0
+
+These packages each contain the following license and notice below:
+
+This is a stub types definition for axios (https://github.com/mzabriskie/axios).
+axios provides its own type definitions, so you don't need @types/axios installed!
+
+-----------
+
+The following NPM packages may be included in this product:
+
+ - @types/node@14.14.35
+
+These packages each contain the following license and notice below:
+
+MIT License
+
+    Copyright (c) Microsoft Corporation.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE
+
+-----------
+
+The following NPM packages may be included in this product:
+
+ - axios@0.21.1
+
+These packages each contain the following license and notice below:
+
+Copyright (c) 2014-present Matt Zabriskie
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-----------
+
+The following NPM packages may be included in this product:
+
+ - cleanup-distributions-from-brcloud-action@1.0.0
+
+These packages each contain the following license and notice below:
+
+# Cleanup distributions from Bloomreach(BR) Cloud action
+This action cleans up/deletes the `distributionsDeleteCount` number of oldest distributions when Bloomreach(BR) Cloud hits maximum number of distributions as indicated by `maxDistributions`.
+
+The action is using the BR Cloud Rest API. The API documentation is available at `https://api-<stack-name>.onehippo.io/v3/docs`.
+
+## Inputs
+
+### `brcStack`
+
+**Required** BR Cloud stack name.
+
+### `username`
+
+**Required** BR Cloud username.
+
+### `password`
+
+**Required** BR Cloud password.
+
+### `maxDistributions`
+
+_optional_ Maximum number of distributions in Bloomreach(BR) Cloud at which oldest distributions needs to be deleted. Defaults to `100`.
+
+### `distributionsDeleteCount`
+
+_optional_ Count/Number of oldest distributions that needs to be deleted when brCloud hits `maxDistributions`. Defaults to `1`.
+
+## Outputs
+This action adds no outputs.
+
+## Example usage
+
+```
+uses: Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action@v1.0
+with:
+  brcStack: "brStackName"
+  username: ${{ secrets.BRC_USERNAME }}
+  password: ${{ secrets.BRC_PASSWORD }}
+  [maxDistributions: "80"]
+  [distributionsDeleteCount: "10"]
+```
+
+-----------
+
+The following NPM packages may be included in this product:
+
+ - follow-redirects@1.13.3
+
+These packages each contain the following license and notice below:
+
+Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----------
+
+This file was generated with generate-license-file! https://www.npmjs.com/package/generate-license-file

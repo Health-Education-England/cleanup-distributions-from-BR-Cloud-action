@@ -1,0 +1,23 @@
+name: 'Clean up distributions from Bloomreach(BR) Cloud'
+description: 'This action cleans up/deletes the `distributionsDeleteCount` number of oldest distributions when Bloomreach(BR) Cloud hits maximum number of distributions as indicated by `maxDistributions`'
+inputs:
+  brcStack:
+    description: 'BR Cloud stack name'
+    required: true
+  username:
+    description: 'BR Cloud username'
+    required: true
+  password:
+    description: 'BR Cloud password'
+    required: true
+  maxDistributions:
+    description: 'Maximum number of distributions in Bloomreach(BR) Cloud at which oldest distributions needs to be deleted'
+    required: false
+    default: '100'
+  distributionsDeleteCount:
+    description: 'Count/Number of oldest distributions that needs to be deleted when brCloud hits `maxDistributions`'
+    required: false
+    default: '1'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

@@ -1,0 +1,29 @@
+{
+  "name": "cleanup-distributions-from-brcloud-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dirst/index.js",
+  "scripts": {
+    "build": "tsc && ncc build build/index.js -o dist && generate-license-file --input package.json --output dist/licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action/issues"
+  },
+  "homepage": "https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^14.14.22"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
+    "generate-license-file": "^1.1.0",
+    "typescript": "^4.1.3"
+  }
+}
