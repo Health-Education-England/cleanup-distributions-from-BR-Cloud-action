@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action.git"
+    "url": "git+https://github.com/Health-Education-England/cleanup-distributions-from-BR-Cloud-action.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action/issues"
+    "url": "https://github.com/Health-Education-England/cleanup-distributions-from-BR-Cloud-action/issues"
   },
-  "homepage": "https://github.com/Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action#readme",
+  "homepage": "https://github.com/Health-Education-England/cleanup-distributions-from-BR-Cloud-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@types/axios": "^0.14.0",
