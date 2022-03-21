@@ -31,7 +31,7 @@ This action adds no outputs.
 ## Example usage
 
 ```
-uses: Manifesto-Digital/cleanup-distributions-from-BR-Cloud-action@v1.0
+uses: Health-Education-England/cleanup-distributions-from-BR-Cloud-action@v1.0
 with:
   brcStack: "brStackName"
   username: ${{ secrets.BRC_USERNAME }}
