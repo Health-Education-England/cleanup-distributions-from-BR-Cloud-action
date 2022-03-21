@@ -18,17 +18,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 The following NPM packages may be included in this product:
 
- - @types/axios@0.14.0
-
-These packages each contain the following license and notice below:
-
-This is a stub types definition for axios (https://github.com/mzabriskie/axios).
-axios provides its own type definitions, so you don't need @types/axios installed!
-
------------
-
-The following NPM packages may be included in this product:
-
  - @types/node@14.14.35
 
 These packages each contain the following license and notice below:
@@ -59,7 +48,7 @@ MIT License
 
 The following NPM packages may be included in this product:
 
- - axios@0.21.1
+ - axios@0.26.1
 
 These packages each contain the following license and notice below:
 
@@ -137,7 +126,7 @@ with:
 
 The following NPM packages may be included in this product:
 
- - follow-redirects@1.13.3
+ - follow-redirects@1.14.9
 
 These packages each contain the following license and notice below:
 
