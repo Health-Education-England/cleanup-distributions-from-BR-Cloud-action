@@ -1,7 +1,7 @@
 # Cleanup distributions from Bloomreach(BR) Cloud action
 This action cleans up/deletes the `distributionsDeleteCount` number of oldest distributions when Bloomreach(BR) Cloud hits maximum number of distributions as indicated by `maxDistributions`.
 
-The action is using the BR Cloud Rest API. The API documentation is available at `https://api-<stack-name>.onehippo.io/v3/docs`.
+The action is using the BR Cloud Rest API. The API documentation is available at `https://api.<stack-name>.bloomreach.cloud/v3/docs`.
 
 ## Inputs
 
