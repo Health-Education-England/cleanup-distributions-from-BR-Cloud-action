@@ -6,6 +6,7 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "./build",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "useUnknownInCatchVariables": false
   }
 }
