@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",
-    "generate-license-file": "^3.0.1",
+    "generate-license-file": "^3.8.1",
     "typescript": "^5.4.3"
   }
 }
