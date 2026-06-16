@@ -23,7 +23,7 @@
     "axios": "1.16.1"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.1",
+    "@vercel/ncc": "^0.38.4",
     "generate-license-file": "^3.0.1",
     "typescript": "^5.4.3"
   }
